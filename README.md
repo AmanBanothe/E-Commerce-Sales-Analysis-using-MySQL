@@ -3,7 +3,7 @@
 📌 Project Overview
 This project analyzes real-world transactional data from a UK-based online retail company. The analysis is performed using MySQL to uncover valuable business insights such as sales trends, product performance, customer segmentation, and revenue patterns.
 
-🔍 Objective: Derive actionable insights from raw transactional data using SQL for business decisions.
+🔍 **Objective**: Derive actionable insights from raw transactional data using SQL for business decisions.
 
 📂 Dataset Description
 📥 Source: UCI Machine Learning Repository
@@ -79,14 +79,24 @@ ecommerce-mysql-analysis/
   
 │
 
-├── OnlineRetail.csv              # Raw dataset
+├── OnlineRetail.csv                     # Raw dataset
 
-├── ecommerce_analysis.sql        # SQL queries for analysis
+├── ecommerce_analysis.sql               # SQL queries for analysis
 
-├── schema.sql                    # Table schema
+├── schema.sql                           # Table schema
 
-├── insights.md                   # Summary of findings
+├── insights.md                          # Summary of findings
 
-├── dashboard.png                 # (Optional) Power BI or Tableau snapshot
+└── README.md                            # Project overview and details
 
-└── README.md                     # Project overview and details
+📌 How to Use
+Import **OnlineRetail.csv** to MySQL using MySQL Workbench or CLI.
+
+Run schema.sql to create the table.
+
+Run **ecommerce_analysis.sql** for insights.
+
+📚 Credits
+Dataset from UCI Machine Learning Repository
+
+Inspired by retail business case studies in analytics
