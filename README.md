@@ -66,11 +66,17 @@ WHERE InvoiceNo LIKE 'C%';
 
 💡 More Queries:
    > Average Basket Size & Order Value
+
    > First and Last Purchase Date per Customer
+
    > Top Customers by Lifetime Value
+   
    > Product Return Rates
+   
    > Time-of-Day Revenue Patterns
+   
    > Co-Purchased Products
+   
    > Monthly Active Users
 
 
