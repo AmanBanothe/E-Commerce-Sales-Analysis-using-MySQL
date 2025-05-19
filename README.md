@@ -5,9 +5,11 @@ This project analyzes real-world transactional data from a UK-based online retai
 
 🔍 **Objective**: Derive actionable insights from raw transactional data using SQL for business decisions.
 
+
 📂 Dataset Description
 📥 Source: UCI Machine Learning Repository
 https://archive.ics.uci.edu/ml/machine-learning-databases/00352
+
 📁 Format: Excel (.xlsx) converted to CSV
 
 📊 Transactions: ~500,000
@@ -15,6 +17,7 @@ https://archive.ics.uci.edu/ml/machine-learning-databases/00352
 📅 Period: December 2010 – December 2011
 
 🌍 Region: Primarily United Kingdom
+
 
 🧾 Key Columns:
 Column        :	Description
@@ -28,7 +31,9 @@ CustomerID	  :  Unique ID per customer
 Country	      :  Customer location
 
 
+ 
 📊 Key SQL Queries & Analysis
+
 ✅ Revenue Metrics
 -- Total Revenue
 SELECT ROUND(SUM(Quantity * UnitPrice), 2) AS Total_Revenue
@@ -80,6 +85,8 @@ WHERE InvoiceNo LIKE 'C%';
    > Monthly Active Users
 
 
+
+
 🧾 Folder Structure
 ecommerce-mysql-analysis/
   
@@ -95,14 +102,16 @@ ecommerce-mysql-analysis/
 
 └── README.md                            # Project overview and details
 
+
 📌 How to Use
 Import **OnlineRetail.csv** to MySQL using MySQL Workbench or CLI.
 
-Run schema.sql to create the table.
+> Run schema.sql to create the table.
 
-Run **ecommerce_analysis.sql** for insights.
+> Run **ecommerce_analysis.sql** for insights.
+
 
 📚 Credits
-Dataset from UCI Machine Learning Repository
+> Dataset from UCI Machine Learning Repository
 
-Inspired by retail business case studies in analytics
+> Inspired by retail business case studies in analytics
